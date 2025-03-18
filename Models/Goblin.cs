@@ -10,7 +10,7 @@
             Treasure = treasure;
         }
 
-        public override void UniqueBehavior()
+        public override void DramaticFlair()
         {
             throw new NotImplementedException();
         }

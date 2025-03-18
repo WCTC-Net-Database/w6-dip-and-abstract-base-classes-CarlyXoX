@@ -1,4 +1,5 @@
-﻿using W6_assignment_template.Interfaces;
+﻿using System.ComponentModel.Design;
+using W6_assignment_template.Interfaces;
 
 namespace W6_assignment_template.Models
 {
@@ -8,6 +9,7 @@ namespace W6_assignment_template.Models
         public string Type { get; set; }
         public int Level { get; set; }
         public int HP { get; set; }
+
 
         protected CharacterBase(string name, string type, int level, int hp)
         {
@@ -45,6 +47,11 @@ namespace W6_assignment_template.Models
         }
 
         // Abstract method for unique behavior to be implemented by derived classes
-        public abstract void UniqueBehavior();
+        public abstract void DramaticFlair();
+
+        public void PerformSpecialAction()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -4,7 +4,11 @@
     {
         void Attack(ICharacter target);
         void Move();
+        void PerformSpecialAction();
+
         string Name { get; set; }
+
+        void DramaticFlair();
     }
 
 }

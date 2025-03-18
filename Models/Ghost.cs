@@ -17,7 +17,7 @@ namespace W6_assignment_template.Models
             Console.WriteLine($"{Name} flies rapidly through the air.");
         }
 
-        public override void UniqueBehavior()
+        public override void DramaticFlair()
         {
             throw new NotImplementedException();
         }
